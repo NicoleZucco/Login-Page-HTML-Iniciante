@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Croissant+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgba(255, 0, 170, 0.1), rgba(0, 204, 255, 0.1));
+}   
+
+header h2 {
+    color: rgb(169, 4, 119);
+    padding: 20px;
+    text-align: center;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-size: 6rem;  
+}
+
+main {
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(169, 4, 119);
+    font-size: 40px;
+    padding: 0px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 50px auto;
+    padding: 15px;
+    width: 80%;
+    max-width: 300px;
+    border: 3px solid rgb(169, 4, 119);
+    border-radius: 25px 10px;
+    outline-color: rgb(169, 4, 119);
+    background-color: transparent;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin: 0 0 0 0;
+    accent-color: rgba(183, 38, 139, 0.61);
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    margin: 50px auto;
+    padding: 15px;
+    width: 80%;
+    max-width: 300px;
+    border: none;
+    border-radius: 25px 10px;
+    background-color: rgb(169, 4, 119);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(169, 4, 119);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px;
+}
+
+input::placeholder {
+    color: rgb(169, 4, 119);
+    font-size: 1rem;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+    color: rgb(169, 4, 119);
+    flex-wrap: wrap;
+    align-self: flex-end;
+}
